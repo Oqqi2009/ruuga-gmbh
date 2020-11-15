@@ -1,4 +1,12 @@
-.frst_sctn , .scnd_sctn{
-    background-color: #ff0000;
+.scnd_sctn {
+    position: center;
+    background-color: #ffffff;
     width: 50%;
+    border-radius: 2%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECEFF9;
 }
