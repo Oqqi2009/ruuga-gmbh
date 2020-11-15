@@ -1,9 +1,9 @@
-.scnd_sctn {
+.second-section {
     position: center;
     background-color: #ffffff;
     width: 50%;
-    border-radius: 2%;
-    padding: 3%;
+    border-radius: 10px;
+    padding: 1rem;
     box-sizing: border-box;
 }
 
