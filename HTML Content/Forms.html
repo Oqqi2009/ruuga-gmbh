@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+
+    <form action="/search/">
+        <p>
+            <label for="name">Vorname:</label>
+            <input type="text" name="name" id="name" placeholder="Bitte Vorname eingeben">
+            <button type="submit">Eingabe</button>
+        </p>
+    </form>
+
+    <form action="/productsearch">
+        <p>
+            <input type="search" name="produktsearch" id="product_search"
+                placeholder="Wähle aus über 100.000 Produkten">
+            <button type="submit">Suchen</button>
+        </p>
+    </form>
+
+    <hr>
+
+    <h1>Forms for Search</h1>
+    <h2>Typical Search Pages</h2>
+    <h3>Reddit Search</h3>
+
+    <form action="https://www.reddit.com/search/" target="_blank">
+        <input type="text" name="q" id="reddit_search">
+        <button>search reddit</button>
+    </form>
+
+    <hr>
+
+    <h3>Google Search</h3>
+
+    <form action="https://www.google.de/search" target="_blank">
+        <input type="text" name="q" id="google_search" />
+        <button>Search Google</button>
+    </form>
+
+    <hr>
+
+    <h3>Youtube Search</h3>
+
+    <form action="https://www.youtube.de/results" target="_blank">
+        <input type="text" name="search_query" id="youtube_search" />
+        <button>Search Youtube</button>
+    </form>
+
+    <hr>
+
+    <h2>Typical Input Types</h2>
+
+    <input type="checkbox" name="" id="checkbox" checked>
+    <label for="checkbox">Agree to everything</label>
+
+    <hr>
+
+    <h2>Radiobutton</h2>
+
+    <!-- radiobutton: only one option -->
+    <!-- name as identificator to connect the different values -->
+
+    <form action="/gender_select" target="_blank">
+        <p>Please select your gender</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="male">Female</label><br>
+        <input type="radio" id="neutral" name="gender" value="neutral">
+        <label for="male">Other</label><br>
+        <button>Send</button>
+    </form>
+
+    <h2>Select-Options</h2>
+
+    <label for="size">
+        <select name="size" id="size">
+            <option value=""></option>
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+        </select>
+    </label>
+
+    <h2>Textarea</h2>
+
+    <label for="textarea" id="textarea">Hier Text eingeben</label>
+    <textarea name="textarea_name" id="textarea" cols="30" rows="10">Tippen</textarea>
+
+    <div>
+        <form action="/register">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="username"><br>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="password"><br>
+
+            <button>Register</button>
+
+        </form>
+    </div>
+
+    <hr>
+    <h2>Validation Demo</h2>
+
+    <form action="/dummy">
+        <label for="first">Enter your first name</label>
+        <input type="text" name="first" id="first" required autofocus>
+
+        <p>
+            <label for="username">Enter your Username</label>
+            <input type="text" name="username" id="username" minlength="5" max="20" required>
+        </p>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>

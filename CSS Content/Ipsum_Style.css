@@ -1,0 +1,32 @@
+.content:hover {
+    color: red;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: green;
+    cursor: pointer;
+}
+
+h3:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.login {
+    background-color: grey;
+    text-align: center;
+    padding: 3%;
+}
+
+.login button:hover {
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+#testbutton:active {
+    background-color: red;
+}
+
+p:nth-child(2)
