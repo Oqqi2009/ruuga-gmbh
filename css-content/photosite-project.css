@@ -1,0 +1,44 @@
+/* div {
+width: 100%;
+height: ;
+object-fit: cover;
+object-position: 20% 10%;
+}
+ */
+
+/* 
+.img-gal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5% auto;
+    width: 100%;
+    max-width: 960px;
+    justify-content: center;
+}
+
+.gal-row-item {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.item-img {
+    width: 100%;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+} */
+
+.gal-row-item {
+    display: inline;
+    width: 150px;
+    height: 150px;
+}
+
+img {
+    position: relative;
+    /* width: 150px;
+    height: 150px;
+} */

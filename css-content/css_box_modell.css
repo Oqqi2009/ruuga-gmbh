@@ -10,3 +10,31 @@
 body {
     background-color: #ECEFF9;
 }
+
+#more-info-button:hover {
+    padding: 0px 10px;
+}
+
+.third-section {
+    display: block;
+    height: 200px;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10% 0;
+    padding-bottom: 100px;
+}
+
+#section {
+    width: 800px;
+    height: 300px;
+    background-color: olive;
+}
+
+#second-section {
+    width: 800px;
+    height: 300px;
+    background-color: red;
+   }
